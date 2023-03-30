@@ -6,7 +6,7 @@ function carregar() {
     var titulo = window.document.getElementById('titulo')
     var data = new Date()
     var hora = data.getHours()
-    var hora = 1
+    //var hora = 1
     var minuto = data.getMinutes()
 
     if (hora >= 0 && hora < 12) {
